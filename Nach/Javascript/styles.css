@@ -1,0 +1,35 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    padding: 50px;
+    background-color: turquoise;
+    color: chocolate;
+    border-radius: 20%;
+    border: none;
+    transition: all 1s;
+
+
+}
+
+button:hover{
+    background-color: yellowgreen;
+    transform: translateY(30px);
+}
+
+.loop{
+    animation: loop 3s infinite;
+}
+
+@keyframes loop {
+    100%{
+    transform: rotate(360deg)
+    }
+    0%{
+
+    }
+}
